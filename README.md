@@ -1,9 +1,9 @@
-#### 规划
+#### 安装及运行
 
-- 从零使用 `react` 搭建系统
-- 全面使用 `react-hooks` 开发，抛弃 `class` 组件写法、所有组件异步加载，提高首屏渲染速度
-- 动态权限设计，开发配套的后端 Api
-- ...
+```
+npm install
+npm run start:mock
+```
 
 #### 使用技术
 
@@ -14,12 +14,14 @@
 - **接口请求**：`axios`
 - **cookies**：`js-cookie`
 - **过渡动画**：`react-transition-group`
-- **CSS 规则**：`BEM`
 
 #### 文件说明
 
 ```js
 .
+├── mock
+│   ├── server.js // mockjs 启动假数据服务
+│   ├── user.js  // 模拟user api 请求数据
 ├── README.md
 ├── package-lock.json
 ├── package.json
@@ -146,6 +148,7 @@
 │           └── registerResult
 │               └── index.tsx
 └── tsconfig.json
+└── tslint.js
 
 37 directories, 89 files
 ```
