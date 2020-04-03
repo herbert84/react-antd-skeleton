@@ -27,9 +27,9 @@
   },
   "scripts": {
     "mock": "node ./mock/server.js",
-    "start:mock": "concurrently \"npm run mock\" \"npm run start\"",
     "dev": "./node_modules/.bin/webpack --progress --colors --config ./config/webpack.config.js",
     "start": "node scripts/start.js",
+    "start:mock": "concurrently \"npm run mock\" \"npm run start\"",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "tslint": "tslint -c tslint.json src/**/*.{tsx,ts}",
