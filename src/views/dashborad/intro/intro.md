@@ -1,22 +1,3 @@
-#### 规划
-
-- 从零使用 `react` 搭建系统
-- 全面使用 `react-hooks` 开发，抛弃 `class` 组件写法、所有组件异步加载，提高首屏渲染速度
-- 动态权限设计，开发配套的后端 Api
-- ...
-
-#### 使用技术
-
-- **UI 框架**: `react`、`react-hook`、`classnames`
-- **UI 组件**: `antd`、`@ant-design/aliyun-theme`
-- **数据管理**：`redux`、`react-redux`、`redux-thunk`、`redux-logger`
-- **类型检查**：`typescript`
-- **接口请求**：`axios`
-- **cookies**：`js-cookie`
-- **过渡动画**：`react-transition-group`
-- **CSS 规则**：`BEM`
-- **后端 API**：`nodejs`、`eggjs`、`ts`、`mysql`、`sequelize`
-
 #### 文件说明
 
 ```js
